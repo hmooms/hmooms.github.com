@@ -6,7 +6,7 @@
     --light: #e2e2e2;
     --dark: #7480df;
     --dark-text: #555;
-    --shadow: 0 0 1px 3px rgba(85, 85, 85, 0.7);
+    --shadow: 0 1px 5px rgba(85, 85, 85, 0.7);
 }
 
 * {
@@ -90,7 +90,48 @@ nav p{
 
 #about {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.personal {
+    padding: 40px 50px 40px;
+    width: 70vw;
+}
+.primary {
+    width: 100vw;
+    background: var(--primary);
+    display: flex;
+    justify-content: center;
+}
+
+.school {
+    padding: 40px 50px 20px;
+    width: 70vw;
+    min-width: 300px;
+    /* height: TBD; */
+    /* min-height: TBD; */
+}
+
+#about h2 {
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-family: open sans;
+}
+
+.school ul {
+    margin: 10px 30px;
+}
+
+.school img {
+    float: right;
+    width: 200px;
+    box-shadow: var(--shadow);
+    margin-left: 40px;
+}
+
 
 /* Projects page */
 
