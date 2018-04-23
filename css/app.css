@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:100');
 
 /* General settings */
-* {
+:root {
     --primary: #bec8e4;
     --light: #e2e2e2;
     --dark: #7480df;
     --dark-text: #555;
-    --shadow: 0 0 1px 3px rgba(143, 126, 182, 0.7);
+    --shadow: 0 0 1px 3px rgba(85, 85, 85, 0.7);
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -67,6 +70,7 @@ nav p{
     border-radius: 75px;
     width: 150px;
     height: 150px;
+    box-shadow: var(--shadow);
 }
 
 #home h1 {
